@@ -1,3 +1,4 @@
+/* ===== Skip Link ===== */
 .skip-link {
   position: absolute;
   top: -40px;
@@ -10,11 +11,7 @@
   top: 0;
 }
 
-/* li {
-  display: inline;
-  padding: 10px;
-} */
-
+/* ===== Navigation ===== */
 nav {
   display: inline-block;
   width: 80%;
@@ -24,7 +21,9 @@ nav img {
   width: 10%;
 }
 
-/* ===== MOBILE (mặc định 1 cột) ===== */
+/* ===== MOBILE VIEW (mặc định < 772px) ===== */
+/* 1 cột */
+
 .grid {
   display: grid;
   grid-template-columns: 100%;
@@ -41,7 +40,9 @@ nav img {
   justify-content: space-around;
 }
 
-/* ===== TABLET VIEW (>=772px) ===== */
+/* ===== TABLET VIEW (>= 772px) ===== */
+/* 2 cột */
+
 @media screen and (min-width: 772px) {
 
   .grid {
@@ -55,7 +56,9 @@ nav img {
 
 }
 
-/* ===== LARGE VIEW (>=998px) ===== */
+/* ===== LARGE SCREEN VIEW (>= 998px) ===== */
+/* 3 cột */
+
 @media screen and (min-width: 998px) {
 
   .grid {
