@@ -1,4 +1,7 @@
-/* ===== Skip Link ===== */
+/* ========================= */
+/* SKIP LINK */
+/* ========================= */
+
 .skip-link {
   position: absolute;
   top: -40px;
@@ -11,7 +14,10 @@
   top: 0;
 }
 
-/* ===== Navigation ===== */
+/* ========================= */
+/* NAVIGATION */
+/* ========================= */
+
 nav {
   display: inline-block;
   width: 80%;
@@ -21,8 +27,10 @@ nav img {
   width: 10%;
 }
 
-/* ===== MOBILE VIEW (mặc định < 772px) ===== */
-/* 1 cột */
+/* ========================= */
+/* MOBILE VIEW (Default) */
+/* < 772px  → 1 COLUMN */
+/* ========================= */
 
 .grid {
   display: grid;
@@ -34,14 +42,17 @@ nav img {
   width: 100%;
 }
 
+/* Optional flex section */
 .flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-/* ===== TABLET VIEW (>= 772px) ===== */
-/* 2 cột */
+/* ========================= */
+/* TABLET VIEW */
+/* ≥ 772px → 2 COLUMNS */
+/* ========================= */
 
 @media screen and (min-width: 772px) {
 
@@ -56,8 +67,10 @@ nav img {
 
 }
 
-/* ===== LARGE SCREEN VIEW (>= 998px) ===== */
-/* 3 cột */
+/* ========================= */
+/* LARGE SCREEN VIEW */
+/* ≥ 998px → 3 COLUMNS */
+/* ========================= */
 
 @media screen and (min-width: 998px) {
 
